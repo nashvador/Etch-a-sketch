@@ -17,7 +17,6 @@ export default function Box(props) {
   };
 
   let arrayBoxes = useMemo(() => {
-    console.log(props.boxSize);
     let arrayBoxes = [];
     for (let i = 0; i < props.boxSize * props.boxSize; i++) {
       arrayBoxes.push({ hoverOver: false, rgbValue: `rgba(255,255,255)` });

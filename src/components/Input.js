@@ -1,11 +1,11 @@
 import React from "react";
 
-export default function Input(props) {
+export default function Input({ setBoxSize }) {
   const onClickButton = () => {
     const enterSize = prompt("Please Enter a Size between 1 and 100.");
     enterSize >= 101 || enterSize <= 1
       ? alert("Your size is outside the boundaries, please Reenter")
-      : props.setBoxSize(enterSize);
+      : setBoxSize(enterSize);
   };
 
   return (
