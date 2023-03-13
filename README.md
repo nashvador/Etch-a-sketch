@@ -23,7 +23,7 @@ In your terminal type these steps in to get the code running:
 
 ```
 git clone https://github.com/nashvador/etch-a-sketch.git
-cd FetchRewardsFE
+cd etch-a-sketch
 npm install
 npm start
 ```
